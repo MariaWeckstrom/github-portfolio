@@ -10,9 +10,14 @@ html{
   min-width: 1vw;
 }
 
+h1{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
 body {
-  background-color: rgb(34, 34, 34);
-  }
+  background-color: rgb(22, 22, 22);
+}
   
 #header {
   min-height: 70px;
@@ -31,9 +36,6 @@ nav{
   }
 }
 
-#home{
-  padding-top: 10vh;
-}
 
 #home,
 #projects,
@@ -49,31 +51,41 @@ nav{
   min-height: 20vh;
 }
 
+
+#home{
+  padding-top: 5vh;
+  h1{
+    font-size: xx-large;
+  }
+  p{
+    font-size: large;
+  }
+}
+
+
 #projects{
   min-height: 40vh;
-}
-
-#projects p{
-  margin: 0;
-}
-
-h1{
-  padding: 1vh;
-}
-
-h2{
-  font-size: large;
-  padding-bottom: 3px;
-}
-
-#projects img {
-  margin: 0 auto;
-  max-height: 20vh;
+  padding-bottom: 10vh;
+  img {
+    margin: 0 auto;
+    max-height: 20vh;
+  }
+  p{
+    margin: 0;
+  }
 }
 
 #elements div {
   display: inline-grid;
   grid-auto-rows: auto;
-  background-color: rgb(54, 54, 54);
-  padding: 1vh;
+  padding: 3vh;
+  h2{
+    font-size: large;
+    padding-bottom: 1vh;
+    padding-top: 0.5vh;
+  }
+  #links{
+    padding-left: 0;
+    padding-top: 1vh;
+  }
 }
