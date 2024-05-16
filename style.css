@@ -39,7 +39,7 @@ nav{
 
 #home,
 #projects,
-#contact{
+#contacts{
   margin-left: 2vw;
   p{
     margin-left: 2vw;
@@ -47,8 +47,11 @@ nav{
 }
 
 #home,
-#contact{
+#contacts{
   min-height: 20vh;
+  a{
+    margin-left: 2vw;
+  }
 }
 
 
@@ -89,3 +92,4 @@ nav{
     padding-top: 1vh;
   }
 }
+
