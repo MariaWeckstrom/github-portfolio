@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  color:rgb(228, 228, 228);
+  font-family: 'Raleway', sans-sherif;
+}
+
+html{
+  scroll-behavior: smooth;
+  min-height: 10vh;
+  min-width: 1vw;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+  }
+  
+#header {
+  min-height: 70px;
+  background-color: rgb(8, 8, 8);
+}
+
+nav{
+  display: flex;
+  justify-content: right;
+  font-size: x-large;
+  padding: 2%;
+  padding-left: 4%;
+  a:link{
+    text-decoration: none;
+    padding-right:1vw;
+  }
+}
+
+#home{
+  padding-top: 10vh;
+}
+
+#home,
+#projects,
+#contact{
+  margin-left: 2vw;
+  p{
+    margin-left: 2vw;
+  }
+}
+
+#home,
+#contact{
+  min-height: 20vh;
+}
+
+#projects{
+  min-height: 40vh;
+}
+
+#projects p{
+  margin: 0;
+}
+
+h1{
+  padding: 1vh;
+}
+
+h2{
+  font-size: large;
+  padding-bottom: 3px;
+}
+
+#projects img {
+  margin: 0 auto;
+  max-height: 20vh;
+}
+
+#elements div {
+  display: inline-grid;
+  grid-auto-rows: auto;
+  background-color: rgb(54, 54, 54);
+  padding: 1vh;
+}
